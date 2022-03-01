@@ -5,8 +5,8 @@ function ClickFunction() {
 }
 
 function myFunction() {
-    var element = document.getElementById('mybutton');
-    element.addEventListener('click', ClickFunction);
+    var element = document.getElementById('myinput');
+    element.addEventListener('keyup', ClickFunction);
 
 }
 
